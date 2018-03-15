@@ -205,6 +205,12 @@ config.tx_extbase.persistence.classes {
 }
 
 plugin.tx_typo3forum.settings {
+	settings {
+		css {
+			RootlineViewHelper = nav nav-pills nav-pills-condensed
+		}
+	}
+
     debug = {$plugin.tx_typo3forum.settings.debug}
     debug {
         disableACLs = 0
