@@ -64,7 +64,7 @@ class RootlineViewHelper extends AbstractTagBasedViewHelper {
 			array_reverse($rootline);
 		}
 
-		$class = 'nav nav-pills nav-pills-condensed';
+		$class = $this->settings["css"]["RootlineViewHelper"];
 		if ($this->arguments['class']) {
 			$class .= ' ' . $this->arguments['class'];
 		}
